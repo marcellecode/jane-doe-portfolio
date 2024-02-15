@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./navbar.css";
 import { TfiAlignJustify } from "react-icons/tfi";
 
-const Navbar = ({navItems}) => {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => setIsOpen(!isOpen);
 
@@ -21,13 +21,26 @@ const Navbar = ({navItems}) => {
         <button onClick={toggleMenu}>Fechar</button>
         <nav>
           <ul>
-            {navItems.map(item => (
-              <li>
-                <a href={navItems.path} onClick={toggleMenu}>
-                  {navItems.id}
-                </a>
-              </li>
-            ))}
+            <li>
+              <a href="#home" onClick={toggleMenu}>
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#about" onClick={toggleMenu}>
+                Sobre
+              </a>
+            </li>
+            <li>
+              <a href="#services" onClick={toggleMenu}>
+                Serviços
+              </a>
+            </li>
+            <li>
+              <a href="#contact" onClick={toggleMenu}>
+                Contato
+              </a>
+            </li>
           </ul>
         </nav>
       </div>
