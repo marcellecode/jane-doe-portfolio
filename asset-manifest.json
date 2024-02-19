@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/jane-doe-portfolio/static/css/main.d2dcf003.css",
-    "main.js": "/jane-doe-portfolio/static/js/main.6edcb113.js",
+    "main.css": "/jane-doe-portfolio/static/css/main.b4196227.css",
+    "main.js": "/jane-doe-portfolio/static/js/main.69648e21.js",
     "static/js/592.7df07533.chunk.js": "/jane-doe-portfolio/static/js/592.7df07533.chunk.js",
     "static/media/bailey-burton-WUOme0jyBGs-unsplash.jpg": "/jane-doe-portfolio/static/media/bailey-burton-WUOme0jyBGs-unsplash.c1e32da41bb736a2d965.jpg",
+    "static/media/vika-strawberrika-Jbwp-Gd8GHM-unsplash.jpg": "/jane-doe-portfolio/static/media/vika-strawberrika-Jbwp-Gd8GHM-unsplash.ff58585a6d4d48fc17c0.jpg",
     "static/media/logo.svg": "/jane-doe-portfolio/static/media/logo.faa85e8cda58a5037ec450710807edf6.svg",
     "index.html": "/jane-doe-portfolio/index.html",
-    "main.d2dcf003.css.map": "/jane-doe-portfolio/static/css/main.d2dcf003.css.map",
-    "main.6edcb113.js.map": "/jane-doe-portfolio/static/js/main.6edcb113.js.map",
+    "main.b4196227.css.map": "/jane-doe-portfolio/static/css/main.b4196227.css.map",
+    "main.69648e21.js.map": "/jane-doe-portfolio/static/js/main.69648e21.js.map",
     "592.7df07533.chunk.js.map": "/jane-doe-portfolio/static/js/592.7df07533.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2dcf003.css",
-    "static/js/main.6edcb113.js"
+    "static/css/main.b4196227.css",
+    "static/js/main.69648e21.js"
   ]
 }
