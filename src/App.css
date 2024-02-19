@@ -1,0 +1,22 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.bio,
+.blog {
+    animation: fadeIn 1s;
+    animation-fill-mode: forwards;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+}

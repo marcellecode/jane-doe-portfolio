@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./navbar.css";
 import { TfiAlignJustify } from "react-icons/tfi";
 
-const Navbar = () => {
+const Navbar = ({ setActiveSection }) => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => setIsOpen(!isOpen);
 
@@ -22,23 +22,23 @@ const Navbar = () => {
         <nav>
           <ul>
             <li>
-              <a href="#home" onClick={toggleMenu}>
-                Home
+              <a href="#bio" onClick={() => {toggleMenu(); setActiveSection('bio');}}>
+                bio
               </a>
             </li>
             <li>
-              <a href="#about" onClick={toggleMenu}>
-                Sobre
+              <a href="#portfolio" onClick={() => {toggleMenu(); setActiveSection('portfolio');}}>
+                portfolio
               </a>
             </li>
             <li>
-              <a href="#services" onClick={toggleMenu}>
-                Serviços
+              <a href="#podcast" onClick={() => {toggleMenu(); setActiveSection('podcast');}}>
+                podcast
               </a>
             </li>
             <li>
-              <a href="#contact" onClick={toggleMenu}>
-                Contato
+              <a href="#blog" onClick={() => {toggleMenu(); setActiveSection('blog');}}>
+                blog
               </a>
             </li>
           </ul>

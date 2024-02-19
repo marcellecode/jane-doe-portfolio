@@ -2,9 +2,9 @@ import React from "react";
 import "./bio.scss";
 import janeImage from "../../assets/bailey-burton-WUOme0jyBGs-unsplash.jpg"
 
-export default function Bio() {
+export default function Bio({ isActive }) {
   return (
-    <div className="bio-container" id="bio">
+    <div className={`bio-container ${isActive ? 'active' : ''}`} id="bio">
       <div className="bio-text">
         <h1>Jane Doe</h1>
         <p>

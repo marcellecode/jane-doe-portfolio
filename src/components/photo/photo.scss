@@ -1,0 +1,12 @@
+.photo-container {
+
+    img {
+        max-width: 382px;
+        max-height: 415px;
+        width: 375px;
+        height: 390px;
+        object-fit: cover;
+        object-position: left;
+        margin: 5px;
+    }
+}
