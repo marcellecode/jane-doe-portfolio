@@ -8,7 +8,6 @@ import Portfolio from "./sections/portfolio/portfolio";
 
 function App() {
   const [activeSection, setActiveSection] = useState("bio");
-  console.log(activeSection);
 
   return (
     <div className="App">
